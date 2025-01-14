@@ -8,5 +8,8 @@
   "rust-analyzer.checkOnSave": true,
   "terminal.integrated.fontSize": 20,
   "workbench.panel.defaultLocation": "right",
-  "window.zoomLevel": 0
+  "window.zoomLevel": 0,
+  "rust-analyzer.inlayHints.genericParameterHints.type.enable": true,
+  "rust-analyzer.inlayHints.closureReturnTypeHints.enable": "always",
+  "rust-analyzer.inlayHints.closureCaptureHints.enable": true
 }

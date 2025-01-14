@@ -1,6 +1,9 @@
 fn main() {
-    let first_initial: char = 'B';
-    let emoji: char = '🦀';
+    let numbers: [i8; 6] = [4, 8, 15, 16, 23, 42];
 
-    println!("{}", emoji.is_alphabetic());
+    let apples = ["Granny Smith", "Macintosh", "Red Delicious"];
+
+    println!("{}", apples.len());
+
+    let currency_rates: [f32; 0] = [];
 }
