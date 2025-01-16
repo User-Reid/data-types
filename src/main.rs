@@ -1,9 +1,8 @@
 fn main() {
-    let numbers: [i8; 6] = [4, 8, 15, 16, 23, 42];
+    let seasons = ["Spring", "Fall", "Winter", "Summer"];
 
-    let apples = ["Granny Smith", "Macintosh", "Red Delicious"];
-
-    println!("{}", apples.len());
-
-    let currency_rates: [f32; 0] = [];
+    println!("{}", 5);
+    println!("{}", true);
+    println!("{}", 3.14);
+    println!("{:#?}", seasons);
 }
