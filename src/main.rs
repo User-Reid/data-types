@@ -1,8 +1,13 @@
 fn main() {
-    let seasons = ["Spring", "Fall", "Winter", "Summer"];
+    let employee = ("Molly", 32, "Marketing");
 
-    println!("{}", 5);
-    println!("{}", true);
-    println!("{}", 3.14);
-    println!("{:#?}", seasons);
+    // let name = employee.0;
+    // let age = employee.1;
+    // let department = employee.2;
+
+    let (name, age, department) = employee;
+
+    println!("{name}, {age}, {department}");
+
+    println!("{employee:#?}");
 }

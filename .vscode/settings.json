@@ -10,6 +10,13 @@
   "workbench.panel.defaultLocation": "right",
   "window.zoomLevel": 0,
   "rust-analyzer.inlayHints.genericParameterHints.type.enable": true,
-  "rust-analyzer.inlayHints.closureReturnTypeHints.enable": "always",
-  "rust-analyzer.inlayHints.closureCaptureHints.enable": true
+  "rust-analyzer.inlayHints.closureReturnTypeHints.enable": "never",
+  "rust-analyzer.inlayHints.closureCaptureHints.enable": true,
+  "rust-analyzer.linkedProjects": [],
+  "rust-analyzer.inlayHints.parameterHints.enable": true,
+  "rust-analyzer.inlayHints.rangeExclusiveHints.enable": false,
+  "rust-analyzer.inlayHints.renderColons": true,
+  "rust-analyzer.inlayHints.typeHints.enable": true,
+  "rust-analyzer.inlayHints.typeHints.hideClosureInitialization": false,
+  "rust-analyzer.inlayHints.typeHints.hideNamedConstructor": false
 }
